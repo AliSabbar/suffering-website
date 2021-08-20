@@ -605,8 +605,11 @@ input[type=submit]:hover {
   width: 90%;
 }
 .contact .contact-card{
-  padding: 20px 0;
+  padding: 50px 0;
   text-align: center;
+}
+.contact-text{
+  padding: 0 50px;
 }
 }
 /* contact end */
