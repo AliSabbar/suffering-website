@@ -382,7 +382,7 @@ body{
   width: auto;
   height: auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 .about .container .about-content{
   display: flex;
   flex-direction: column;
@@ -496,6 +496,9 @@ body{
 .contact{
   background-color: #f6f6f6;
 }
+.contact .contact-content{
+  padding-bottom: 50px;
+}
 .contact .spe-text{
   color: var(--head-color);
 }
@@ -607,4 +610,3 @@ input[type=submit]:hover {
 }
 }
 /* contact end */
-
